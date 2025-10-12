@@ -13,8 +13,6 @@ During my junior year, I worked with Trilobio, a biotech startup developing modu
 
 Mechanically, our design relied on a flexure-based system, where the deflection of a  beam under load is converted into a measurable signal. A novel damping system and custom housing stabilized the measurements against vibration and environmental noise, providing bothstructural support and electromagnetic shielding. Custom weigh boats were also designed to integrate with our balance.
 
-![](images/trilobio1.png){height=350px .img-left}
-
 My primary focus was on the electrical system, which enabled precise mass measurement through **capacitive sensing**. I designed **custom PCBs** (one of which is shown on the left) that integrated capacitive plates, high-resolution capacitance-to-digital converters, and signal conditioning circuitry. I also helped implemented **digital communication through I²C** multiplexing and integrated an STM32 microcontroller with CAN bus capabilities to ensure seamless communication with the Trilobot system. To minimize noise, I separated analog and digital domains on the PCB, carefully routed signals, and incorporated shielding into the design.
 
 In addition to PCB design, I contributed to testing and debugging the electronic system. This included calibrating the capacitive sensors, validating resolution down to sub-milligram precision, and characterizing sources of noise under different housing and damping configurations. Our final three-channel prototype demonstrated the ability to measure dispensed liquid volumes with the required precision in low-noise environments and provided a clear roadmap for scaling to a full eight-channel system.
