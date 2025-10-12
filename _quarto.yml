@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "Shreya Jampana's Portfolio"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects/
+        text: Projects at HMC
+      - href: uPs/
+        text: Microprocessors Projects
+      - href: clinic/
+        text: Clinic/Capstone Projects
+      - href: industry/
+        text: Industry Experience
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

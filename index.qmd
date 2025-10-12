@@ -1,0 +1,28 @@
+---
+title: "Shreya Jampana"
+image: images/headshot.jpg
+about: 
+    template: jolla
+    links: 
+        - icon: linkedin
+          text: LinkedIn
+          href: https://www.linkedin.com/in/shreya-jampana
+        - icon: envelope
+          text: Email Me
+          href: mailto:sjampana@hmc.edu
+---
+
+###### **ENGINEERING @ HARVEY MUDD COLLEGE**
+
+
+
+<div style="text-align: left;">
+Hi! I'm a senior engineering student passionate about combining my technical and theoretical skills to develop novel solutions to engineering problems. I have a strong foundation in electrical engineering, with a special emphasis and interest in analog and RF systems. I also have experience in digital design and microprocessor-based systems. 
+
+With my general engineering education, I love working across disciplines, integrating electrical, mechanical, and computational approaches to create innovative and robust designs. I’m especially motivated by projects that drive meaningful impact, from advancing technologies in the biotech space to supporting environmental sustainability.
+</div>
+
+
+
+
+

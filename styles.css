@@ -1,0 +1,11 @@
+/* css styles */
+
+h3.box {
+  display: inline-block;
+  background-color: #ffffff;
+  border: 2px solid #37678aff;   /* your blue border */
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  color: black
+}

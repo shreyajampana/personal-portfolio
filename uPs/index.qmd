@@ -1,0 +1,32 @@
+---
+title: Microprocessor-based Systems Projects
+title-block-banner: "#097167ff"
+title-block-banner-color: white 
+description: "In ENGR155: Microprocessor-based Systems - Design and Applications, I learn to practically realize complicated digital electronic systems, including FPGAs, microcontrollers, and more. Below are my weekly projects/labs!"
+---
+
+::: {.grid .grid-3}
+
+::: {.g-col-4}
+<a href="lab1.qmd" class="hover-card card-lab1">Lab 1: FPGA & MCU Testing and Setup</a>
+:::
+
+::: {.g-col-4}
+<a href="lab2.qmd" class="hover-card card-lab2">Lab 2: Multiplexed 7-Segment Display</a>
+:::
+
+::: {.g-col-4}
+<a href="lab3.qmd" class="hover-card card-lab3">Lab 3: Keypad Scanner</a>
+:::
+
+::: {.g-col-4}
+<a href="lab4.qmd" class="hover-card card-lab4">Lab 4: Digital Audio</a>
+:::
+
+::: {.g-col-4}
+<a href="lab5.qmd" class="hover-card card-lab5">Lab 5: Interrupts</a>
+:::
+
+:::
+
+
