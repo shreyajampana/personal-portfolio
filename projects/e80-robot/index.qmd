@@ -1,0 +1,29 @@
+---
+title: "Project Title"
+author: "Shreya Jampana"
+date: 2024-11-11
+---
+
+## Demo Section
+
+::: {#fig-test-figure}
+![alt text](images/SCREEN168.JPG)
+
+This is the figure caption.
+:::
+
+@fig-test-figure shows something.
+
+```
+#for writing code
+```
+
+| test | test 2|
+|----|---|
+| 1| 2|
+
+### H3
+
+### Subsection 2
+
+## H2
