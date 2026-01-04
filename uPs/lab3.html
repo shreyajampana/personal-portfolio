@@ -125,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#lab-3-keypad-scanner" id="toc-lab-3-keypad-scanner" class="nav-link active" data-scroll-target="#lab-3-keypad-scanner">Lab 3: Keypad Scanner</a>
+  <li><a href="#fpga-keypad-scanning-and-debounced-input-system" id="toc-fpga-keypad-scanning-and-debounced-input-system" class="nav-link active" data-scroll-target="#fpga-keypad-scanning-and-debounced-input-system">FPGA Keypad Scanning and Debounced Input System</a>
   <ul class="collapse">
   <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#design-and-testing" id="toc-design-and-testing" class="nav-link" data-scroll-target="#design-and-testing">Design and Testing</a></li>
@@ -142,8 +142,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="lab-3-keypad-scanner" class="level2">
-<h2 class="anchored" data-anchor-id="lab-3-keypad-scanner">Lab 3: Keypad Scanner</h2>
+<section id="fpga-keypad-scanning-and-debounced-input-system" class="level2">
+<h2 class="anchored" data-anchor-id="fpga-keypad-scanning-and-debounced-input-system">FPGA Keypad Scanning and Debounced Input System</h2>
 <section id="introduction" class="level3">
 <h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
 <p>In this lab, we learned how to use the FPGA to scan inputs from a 4x4 keypad. The multiplexed display from lab 2 was combined with a keypad to display user inputs. A scanning system was designed to read the inputs from keypad scanner, and a method for switch debouncing was also implemented. This lab required carefuly, thought-outTsynchronous sequential design</p>
@@ -153,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
 <p>One of the biggest design considerations was the scanner FSM. I went through many iterations, but in order to meet all of the specifications of the lab, ended up going with the following design:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/lab3_1.jpeg" class="img-fluid figure-img"></p>
+<p><img src="images/lab3_1.png" class="img-fluid figure-img"></p>
 <figcaption>Figure 1. Scanner FSM</figcaption>
 </figure>
 </div>
