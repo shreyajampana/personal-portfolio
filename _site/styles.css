@@ -94,6 +94,10 @@ h3.box {
   background-image: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
                     url("uPs/images/lab5_1.jpeg");
 }
+.card-lab6 {
+  background-image: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+                    url("uPs/images/lab6_3.jpg");
+}
 
 /* Hover effect: darken + slight lift */
 .hover-card:hover {

@@ -1,4 +1,4 @@
-## Lab 2: Multiplexed 7-Segment Display
+## FPGA Time-Multiplexed Seven-Segment Display
 
 ### Introduction
 In this lab, time multiplexing was used to efficiently drive two seven-segment displays with a single set of FPGA I/O pins. The sum of both numbers were displayed on five separate LEDs. Additionally, transistors were used to drive large currents from the FPGA pins. 

@@ -1,4 +1,4 @@
-## Lab 1: FPGA and MCU Setup and Testing
+## MCU–FPGA Development Board Bring-Up and Digital I/O Validation
 
 ### Introduction
 In this lab, we soldered our E155 protoboard and implemented designs on the FPGA to drive on-board LEDs and a seven segment display. Two of the LEDs outputted combinational logic, and one of them was blinked at a specific frequency using the on-board high-speed oscillator. 

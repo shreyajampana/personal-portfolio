@@ -1,4 +1,4 @@
-## Lab 3: Keypad Scanner
+## FPGA Keypad Scanning and Debounced Input System
 
 ### Introduction
 In this lab, we learned how to use the FPGA to scan inputs from a 4x4 keypad. The multiplexed display from lab 2 was combined with a keypad to display user inputs. A scanning system was designed to read the inputs from keypad scanner, and a method for switch debouncing was also implemented. This lab required carefuly, thought-outTsynchronous sequential design
@@ -6,7 +6,7 @@ In this lab, we learned how to use the FPGA to scan inputs from a 4x4 keypad. Th
 ### Design and Testing
 One of the biggest design considerations was the scanner FSM. I went through many iterations, but in order to meet all of the specifications of the lab, ended up going with the following design: 
 
-![Figure 1. Scanner FSM](images/lab3_1.jpeg)
+![Figure 1. Scanner FSM](images/lab3_1.png)
 
 As shown in figure 1, the scanner FSM has one state for each column, and one for each row within each column. Given a row input, the FSM should transition from the column state to the state corresponding to the row input. If no rows are pressed, you transition to the next column and repeat the process. My FSM was originally simpler, but in order to account for edge cases in button pressing, I decided to make each row a distinct state. 
 

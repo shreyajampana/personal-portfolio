@@ -164,7 +164,8 @@ background: #37678aff;
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#projects-in-microprocessor-based-systems" id="toc-projects-in-microprocessor-based-systems" class="nav-link active" data-scroll-target="#projects-in-microprocessor-based-systems">Projects in Microprocessor-based Systems</a></li>
+  <li><a href="#embedded-autotune-style-audio-processing-system" id="toc-embedded-autotune-style-audio-processing-system" class="nav-link active" data-scroll-target="#embedded-autotune-style-audio-processing-system">Embedded Autotune-Style Audio Processing System</a></li>
+  <li><a href="#projects-in-microprocessor-based-systems-course" id="toc-projects-in-microprocessor-based-systems-course" class="nav-link" data-scroll-target="#projects-in-microprocessor-based-systems-course">Projects in Microprocessor-based Systems Course</a></li>
   <li><a href="#rf-receiver-and-communication-system" id="toc-rf-receiver-and-communication-system" class="nav-link" data-scroll-target="#rf-receiver-and-communication-system">RF Receiver and Communication System</a></li>
   <li><a href="#rf-ladder-filter-design" id="toc-rf-ladder-filter-design" class="nav-link" data-scroll-target="#rf-ladder-filter-design">RF Ladder Filter Design</a></li>
   <li><a href="#autonomous-underwater-robot" id="toc-autonomous-underwater-robot" class="nav-link" data-scroll-target="#autonomous-underwater-robot">Autonomous Underwater Robot</a></li>
@@ -186,9 +187,22 @@ background: #37678aff;
 
 
 
-<section id="projects-in-microprocessor-based-systems" class="level3 box">
-<h3 class="box anchored" data-anchor-id="projects-in-microprocessor-based-systems">Projects in Microprocessor-based Systems</h3>
-<p>I am currently taking the class ENGR155: Microprocessor-based Systems: Design &amp; Applications. This course is entirely project-based, so follow along <a href="../uPs/index.html">here</a> as I gain experience with digital design, FPGAs, microcontrollers, and embedded programming!</p>
+<section id="embedded-autotune-style-audio-processing-system" class="level3 box">
+<h3 class="box anchored" data-anchor-id="embedded-autotune-style-audio-processing-system">Embedded Autotune-Style Audio Processing System</h3>
+<div class="grid">
+<div class="g-col-6">
+<p><img src="images/uPs_1.png" class="rounded img-fluid"></p>
+</div>
+<div class="g-col-6">
+<p><img src="images/uPs_2.png" class="rounded img-fluid"></p>
+</div>
+</div>
+<p>In ENGR155: Microprocessor-Based Systems, I designed an embedded autotune-style audio processing system in a team using an STM32 microcontroller and an iCE40 FPGA. Audio was sampled at 16 kHz via the MCU’s ADC with DMA support and streamed over SPI to the FPGA, where a custom 512-point FFT was implemented in SystemVerilog. The frequency-domain data was returned to the MCU for spectral processing, including phase quantization to produce a robotic vocal effect, followed by iFFT reconstruction and output through an external DAC and speaker.</p>
+<p>This project involved extensive register-level configuration of MCU peripherals (ADC, DMA, SPI, timers) and the design of a multi-stage FPGA FFT architecture with custom control logic, memory management, and clock-domain bridging. I validated individual subsystems using simulation, logic-analyzer traces, and controlled test signals, gaining experience in embedded DSP, MCU–FPGA co-design, and system-level debugging across analog, digital, and software domains. Check out my final report <a href="files/Final Report.pdf">here</a> to learn more about this project in detail!</p>
+</section>
+<section id="projects-in-microprocessor-based-systems-course" class="level3 box">
+<h3 class="box anchored" data-anchor-id="projects-in-microprocessor-based-systems-course">Projects in Microprocessor-based Systems Course</h3>
+<p>My course ENGR155: Microprocessor-based Systems: Design &amp; Applications is entirely project-based, so follow along <a href="../uPs/index.html">here</a> as I gain experience with digital design, FPGAs, microcontrollers, and embedded programming!</p>
 </section>
 <section id="rf-receiver-and-communication-system" class="level3 box">
 <h3 class="box anchored" data-anchor-id="rf-receiver-and-communication-system">RF Receiver and Communication System</h3>

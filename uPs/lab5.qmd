@@ -1,4 +1,4 @@
-## Lab 5: Interrupts
+## MCU Interrupt-Driven Quadrature Encoder Speed Measurement
 
 ### Introduction
 In this lab, we used our MCU to determine the speed of a motor by reading from a quadrature encoder. Lab 4 helped me get familiarized with the microcontroller and working with documentation, and this time, we tackled another aspect of microcontrollers: interrupts. Using these, I was able to process real-time, fast changes and record accurate measurements. 

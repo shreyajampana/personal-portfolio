@@ -5,8 +5,22 @@ title-block-banner-color: white
 description: "Check out some of the projects I've done in my courses at Harvey Mudd College! They've helped me gain invaluable experience in engineering design and manufacturing, high-speed electronics, and systems integration." 
 ---
 
-### Projects in Microprocessor-based Systems {.box}
-I am currently taking the class ENGR155: Microprocessor-based Systems: Design & Applications. This course is entirely project-based, so follow along [here](../uPs/index.qmd) as I gain experience with digital design, FPGAs, microcontrollers, and embedded programming!  
+### Embedded Autotune-Style Audio Processing System {.box}
+:::: {.grid}
+::: {.g-col-6}
+![](images/uPs_1.png){.rounded}
+:::
+::: {.g-col-6}
+![](images/uPs_2.png){.rounded}
+:::
+::::
+
+In ENGR155: Microprocessor-Based Systems, I designed an embedded autotune-style audio processing system in a team using an STM32 microcontroller and an iCE40 FPGA. Audio was sampled at 16 kHz via the MCU’s ADC with DMA support and streamed over SPI to the FPGA, where a custom 512-point FFT was implemented in SystemVerilog. The frequency-domain data was returned to the MCU for spectral processing, including phase quantization to produce a robotic vocal effect, followed by iFFT reconstruction and output through an external DAC and speaker.
+
+This project involved extensive register-level configuration of MCU peripherals (ADC, DMA, SPI, timers) and the design of a multi-stage FPGA FFT architecture with custom control logic, memory management, and clock-domain bridging. I validated individual subsystems using simulation, logic-analyzer traces, and controlled test signals, gaining experience in embedded DSP, MCU–FPGA co-design, and system-level debugging across analog, digital, and software domains. Check out my final report [here](files/Final Report.pdf) to learn more about this project in detail!
+
+### Projects in Microprocessor-based Systems Course {.box}
+My course ENGR155: Microprocessor-based Systems: Design & Applications is entirely project-based, so follow along [here](../uPs/index.qmd) as I gain experience with digital design, FPGAs, microcontrollers, and embedded programming!  
 
 ### RF Receiver and Communication System {.box}
 :::: {.grid}

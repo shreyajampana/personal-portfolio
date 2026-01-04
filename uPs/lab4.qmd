@@ -1,4 +1,4 @@
-## Lab 4: Digital Audio
+## MCU Timer-Driven Audio Generation
 
 ### Introduction
 In this lab, I learned how to use my MCU to play music by using timers. These timers generated square waves by toggling a GPIO pin at a specific frequency for specified durations. This lab also served as an introduction to working with the STM32 microcontroller boards. I gained a lot of experience with reading proper documentation (reference manual and datasheet) to understand clocks, timers, register, I/O, and more. The end result consisted of playing "Fur Elise" and my chosen song of "Hedwig's Theme" from Harry Potter!
